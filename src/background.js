@@ -1,4 +1,5 @@
 import { homePageLoad } from './home-page';
+import { menuPageLoad } from './menu-page';
 import Icon from './icon.png';
 export function loadBackground(){
         
@@ -25,6 +26,7 @@ export function loadBackground(){
     ul.childNodes[1].addEventListener("click", () => {
         body.innerHTML = "";
         loadBackground();
+        menuPageLoad();
     });
 
     ul.childNodes[2].addEventListener("click", () => {
