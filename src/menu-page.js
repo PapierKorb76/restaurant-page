@@ -18,11 +18,8 @@ export function menuPageLoad(){
     pizzaImages.forEach((pizza, index = 0) => {
         pizza.src = pizzaArray[index];
         let pizzaContainer = document.createElement("div");
-        let h1 = document.createElement("h1");
         let h3 = document.createElement("h3");
-        h1.innerText = `Pizza #${index + 1}`;
         h3.innerText = pizzaPricesContainer[index];
-        pizzaContainer.append(h1);
         pizzaContainer.append(pizza);
         pizzaContainer.append(h3);
         pizzaGridContainer.append(pizzaContainer);

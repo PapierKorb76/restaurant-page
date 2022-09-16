@@ -1,5 +1,6 @@
 import PizzaHomepage from './pizza-first-page.png';
 import * as bg from "./background.js";
+import * as dSign from "./load-developer-sign";
 
 export function homePageLoad(){
     const body = document.querySelector("body");
@@ -7,6 +8,8 @@ export function homePageLoad(){
     //This loads navbar and the background image that will be loaded in every tab
     bg.loadBackground();
 
+    //This loads the developer sign (me)
+    dSign.loadDeveloperSign();
     /* MAIN CONTAINER */
     const mainContainer = document.createElement("div");
     mainContainer.classList.add("main-container");
