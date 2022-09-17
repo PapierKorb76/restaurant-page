@@ -1,19 +1,13 @@
-### Pizzack! Pizzeria Website
+# Pizzack! Pizzeria Website
 
-# This is a Restaurant Web Page for a fictional pizzeria in my city.
+## This is a Restaurant Web Page for a fictional pizzeria in my city.
 
 This project was completed for The Odin Project Javascript Restaurant Page Assignment. The aim of the project was to make a functional multi page Restaurant website using WebPack to bundle files.
 
 ![alt text](pizza.jpeg)
 
-## Built With
-- Webpack
-- Vanilla JS
-- CSS3
-- HTML5
-
 ## Live Demo
-[a link](https://pages.github.com/)
+[Pizzack Website](https://papierkorb76.github.io/restaurant-page/)
 
 ## Improvements
 
@@ -22,6 +16,16 @@ Features we are going to add to this app:
 - Responsive Web Design
 - Website with React JS Framework
 - Better Images
+
+## Built With
+- Webpack
+- Vanilla JS
+- CSS3
+- HTML5
+
+## Deployed on GitHub Pages
+
+Deployed on [Github Pages](https://pages.github.com/)
 
 ## Usage
 Once you are on the Home Page, you have three links in the navbar
